@@ -32,8 +32,14 @@ const menuItems = [
         visible: ["admin", "teacher", "student", "parent"],
       },
       {
+        title: "Clase",
+        url: "",
+        icon: Inbox,
+        visible: ["student"],
+      },
+      {
         title: "Courses",
-        url: "#",
+        url: "/courses",
         icon: Inbox,
         visible: ["admin", "teacher", "student"],
       },
@@ -45,15 +51,21 @@ const menuItems = [
       },
       {
         title: "Students",
-        url: "#",
+        url: "/students",
         icon: Users2Icon,
         visible: ["admin", "teacher"],
       },
       {
         title: "Teachers",
-        url: "#",
+        url: "/teachers",
         icon: Users2Icon,
         visible: ["admin"],
+      },
+      {
+        title: "Parents",
+        url: "/parents",
+        icon: Users2Icon,
+        visible: ["admin", "teacher"],
       },
       {
         title: "Settings",

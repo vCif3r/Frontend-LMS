@@ -1,10 +1,10 @@
 import React from "react";
 
 import { BoxesIcon, ChartBarIcon, User2Icon, UserPlusIcon } from "lucide-react";
-import EventCalendar from "../components/EventCalendar";
-import { PieChartStudents } from "../components/PieChart";
-import CountChart from "../components/RadialChart";
-import StatisticCard from "../components/StatisticCard";
+import EventCalendar from "../../components/EventCalendar";
+import { PieChartStudents } from "../../components/PieChart";
+import CountChart from "../../components/RadialChart";
+import StatisticCard from "../../components/StatisticCard";
 
 export const statisticsCardsData = [
   {
@@ -39,7 +39,7 @@ export const statisticsCardsData = [
 
 const AdminPage = () => {
   return (
-    <div className="p-4 flex gap-4 flex-col md:flex-row">
+    <div className="flex gap-4 flex-col md:flex-row">
       {/* Left */}
       <div className="w-full lg:w-2/3 flex flex-col gap-4">
         <div className="flex gap-4 justify-between flex-wrap">

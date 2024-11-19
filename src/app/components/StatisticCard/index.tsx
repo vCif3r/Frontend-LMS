@@ -1,13 +1,5 @@
 "use client";
 
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-} from "@/components/ui/card";
-import { MoreHorizontalIcon } from "lucide-react";
-
 type Props = {
   icon: any;
   title: string;
